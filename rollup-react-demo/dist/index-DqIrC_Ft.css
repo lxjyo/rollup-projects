@@ -1,0 +1,42 @@
+.index-module_button__SRu4R {
+  margin: 0 8px;
+  color: #000;
+  font-size: 14px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  padding: 0 16px;
+}
+.index-module_button__SRu4R.index-module_button-primary__lCZQH {
+  background-color: #1890ff;
+  color: #fff;
+}
+.index-module_button__SRu4R.index-module_button-primary__lCZQH:hover {
+  background-color: #0076e4;
+}
+.index-module_button__SRu4R.index-module_button-primary__lCZQH:active {
+  background-color: #005cb1;
+}
+.index-module_button__SRu4R.index-module_button-danger__x2p-h {
+  background-color: #ff4d4f;
+  color: #fff;
+}
+.index-module_button__SRu4R.index-module_button-danger__x2p-h:hover {
+  background-color: #ff1a1d;
+}
+.index-module_button__SRu4R.index-module_button-danger__x2p-h:active {
+  background-color: #e60003;
+}
+.index-module_button__SRu4R.index-module_button-small__PnNp1 {
+  height: 32px;
+  line-height: 32px;
+}
+.index-module_button__SRu4R.index-module_button-middle__xAeqg {
+  height: 40px;
+  line-height: 40px;
+}
+.index-module_button__SRu4R.index-module_button-large__DH74y {
+  height: 48px;
+  line-height: 48px;
+}

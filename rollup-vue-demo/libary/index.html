@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./umd/main.css" />
+  </head>
+  <body>
+    <div id="app">{{ message }}
+      <custom-button size="small">888</custom-button>
+    </div>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script src="./umd/main.js"></script>
+    <script>
+      const { createApp, ref } = Vue;
+
+      const app = createApp({
+        setup() {
+          const message = ref('Hello vue!');
+          return {
+            message,
+          };
+        },
+      });
+      app.use(Vue3Demo);
+      app.mount('#app');
+    </script>
+  </body>
+</html>
