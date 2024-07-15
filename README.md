@@ -45,7 +45,7 @@ babel({
 })
 ```
 4. rollup-plugin-postcss：处理样式（包括对css预处理器的处理）
-5. rollup-plugin-terser：压缩代码，放到output.plugins选项中
+5. @rollup/plugin-terser：压缩代码，放到output.plugins选项中
 6. @rollup/plugin-image：处理图片
 7. @rollup/plugin-alias：处理别名
 ```js
